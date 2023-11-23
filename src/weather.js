@@ -18,7 +18,7 @@ axios.get(apiUrl).then(handleResponse);
         height="80"
         width="80"
         radius={1}
-        color="#00BFFF"
+        color="orange"
         ariaLabel="puff-loading"
         wrapperStyle={{}}
         wrapperClass=""
