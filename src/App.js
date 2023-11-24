@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Weather />
+        <Weather defaultCity="Tehran" />
       </header>
       <footer>
         This is project was coded by Roya Almasimehr. and is{" "}
