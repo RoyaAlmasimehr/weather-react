@@ -3,7 +3,6 @@ import axios from "axios";
 import "./weather.css";
 import WeatherForecast from "./WeatherForecast";
 
-
 import WeatherInfo from "./WearherInfo";
 
 export default function Weather(props) {
@@ -13,7 +12,7 @@ export default function Weather(props) {
   function handleResponse(response) {
     console.log(response.data);
     setWeatherData({
-      coord:response.data.coord,
+      coord: response.data.coord,
       ready: true,
       coordinates: response.data.coord,
       temperature: response.data.main.temp,
